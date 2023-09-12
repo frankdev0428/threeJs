@@ -13,9 +13,9 @@ const Shirt = () => {
     <group>
      <mesh
       castShadow
-      geometry={nodes.T_shirt_male.geometry}
+      geometry={nodes.T_Shirt_male.geometry}
       material={materials.lambert1}
-      material-roughless={1}
+      material-roughness={1}
       dispose={null}
      ></mesh>
     </group>
